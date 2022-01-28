@@ -1,0 +1,4 @@
+maxSpace 1048576
+maxNumberFiles 10
+socketName sock.sk
+numThreadWorkers 4
