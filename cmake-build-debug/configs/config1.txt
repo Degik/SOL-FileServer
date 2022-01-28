@@ -1,4 +1,0 @@
-maxSpace 134217728
-maxNumberFiles 10000
-socketName sock.sk
-numThreadWorkers 1
