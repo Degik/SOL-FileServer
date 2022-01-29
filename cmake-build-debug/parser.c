@@ -17,6 +17,7 @@
 #include "includes/parser.h"
 #include "includes/util.h"
 
+char* savePath;
 int activater;
 int activateR;
 int activatef;
@@ -26,6 +27,7 @@ int activatew;
 int activateW;
 int activateStandard;
 int timeMillis;
+char *socketNameConfig;
 
 void printList(List *L){
     Node *tmp = L->head;
