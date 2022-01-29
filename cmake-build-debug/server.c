@@ -137,7 +137,7 @@ void takeFromConfig(char *configFile){
         fprintf(stderr, "Server [Alcuni valori del configFile non sono stati impostati bene]\n");
         exit(EXIT_FAILURE);
     }
-    float spaceMb = maxSpace / MB_SIZE
+    float spaceMb = maxSpace / MB_SIZE;
     fprintf(stdout, "Server [Spazio: %.2f MB]\n", spaceMb);
     fprintf(stdout, "Server [Numero file: %d]\n", maxNumberFiles);
     fprintf(stdout, "Server [Socketname: %s]\n", socketName);
